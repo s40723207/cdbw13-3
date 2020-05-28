@@ -156,11 +156,12 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">About << <a href='About.html'>Previous</a> <a href='40723244.html'>Next</a> >> 40723244<br /><h1>Develop</h1>
-<p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
-<p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
-<p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
-<br />About << <a href='About.html'>Previous</a> <a href='40723244.html'>Next</a> >> 40723244</div>
+    <div id="tipue_search_content">Develop << <a href='Develop.html'>Previous</a> <br /><h1>40723244</h1>
+<p>操作步驟:<br/>1.點選檔案-&gt;喜好設定-&gt;網路-&gt;新增一個新的NAT網路。<br/>2.編輯NAT網路-&gt;點選連接埠轉送-&gt;新增4個新的連接埠轉送埠號。<br/>3.設定主機IP為127.0.0.1；客體IP為10.0.2.4；主機連接埠為22、19999、17443、18443；客體連接埠為22、19999、7443、8443。<br/>4.點選設定-&gt;網路-&gt;設定主機網路為NAT Network。<br/>5.設定完後，點選啟動，接著輸入密碼kmol2020。<br/>6.開啟LXTermial，輸入ifconfig-&gt;輸入sudo apt install net-tools-&gt;輸入密碼kmol2020。<br/>7.cd tmp-&gt;ls-&gt;輸入ping 127.0.0.1測試-&gt;cd cd2020pj1-&gt;git pull。<br/>8.接著輸入sudo vi wsgi.py編輯內容，按i進行編輯。<br/>9.將近端的host改為10.0.2.4，接著按Esc並輸入:wq存儲。<br/>10.開啟leo，並開啟cd2020pj1.leo，點選Nav搜尋allowExt。<br/>11.點選fileuploadfrom，並將第10行新增一個ttt檔，完成後存儲並關閉leo。<br/>12.cd..,接著在tmp下新增oauth_scrum.txt，輸入sudo vi oauth_scrum.txt。<br/>13.按i編輯，內容先隨便輸入，接著按Esc並輸入:wq存儲。<br/>14.cd cd2020pj1，並輸入python3 wsgi.py啟動。<br/>15.網址為https:/127.0.0.1:18443/alogin。<br/>16.帳號及密碼都為admin，進入後點選fileuploadform，點選要上傳的ttt檔。<br/>17.點選download list檢查檔案是否上傳完成。<br/>18.完成。</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/bHb9e6jNgYE" width="560"></iframe></p>
+<p></p>
+<p>(以上資料參考40723227)</p>
+<p>這次的操作有一定的難度，尤其是在處理連線這塊，<br/>同時需要配合上周的進度，因此處理起來特別麻煩，<br/>最後我想說感謝班上攻略組的同學，讓我們可以過學分!</p><br />Develop << <a href='Develop.html'>Previous</a> </div>
         
     <!-- footer -->
       <div class="container">
